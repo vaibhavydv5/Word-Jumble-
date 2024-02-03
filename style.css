@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+   
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,14,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+
+.content {
+    position: relative;
+    width: 40vw;
+    background-color: rgb(39, 29, 29);
+    top: 10vw;
+    left: 28vw;
+    padding: 2vw 3vw 3vw 2vw;
+    border-radius: 0.9vw;
+  }
+
+  .content h1{
+    color: white;
+  }
+
+  .hr{
+    padding-top: 1vw;
+
+  }
+
+  .word {
+    margin: 24px 20px 25px;
+    text-align: center;
+    padding: 2vw 2vw 2vw 2vw;
+    color: blue;
+    user-select: none;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 2vw;
+    word-break: break-all;
+  }
+
+.hint,.time{
+    padding-top: 1vw;
+    color: white;
+}
+
+.form{
+    margin: 2vw 0 1vw 0;
+}
+
+.form input {
+    width: 100%;
+    height: 2.5vw;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: black;
+    color: grey;
+    padding: 4px;
+  }
+
+  .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1vw;
+  }
+
+  .refresh{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
+    width: 45%;
+    height: 3.5vw;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .check{
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #14297b;
+    color: white;
+    width: 45%;
+    height: 3.5vw;
+    font-size: large;
+    font-weight: bold;
+  }
+ 
+ .btn button:active{
+  transform: scale(0.97);
+ }
+
+ .refresh:hover{
+  background: #5f666d;
+ }
+ .check:hover{
+  background: #2c52ed;
+ }
+
+ @media screen and(max-width:1000px) {
+  body{
+    background-color: red;}
+ }
